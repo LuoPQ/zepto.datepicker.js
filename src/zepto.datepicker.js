@@ -1,4 +1,10 @@
-﻿; (function ($, window, document, undefined) {
+﻿/**
+ * zepto.datepicker.js v0.1.0
+ * MIT License
+ * author info pls visit: http://luopq.com
+ * for more info pls visit: https://github.com/LuoPQ/zepto.datepicker.js
+ */
+; (function ($, window, document, undefined) {
 
     //#region Date扩展
 
