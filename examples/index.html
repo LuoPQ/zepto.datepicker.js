@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta charset="UTF-8" />
+    <title>zepto.datepicker.js示例</title>
+    <link href="../src/zepto.datepicker.css" rel="stylesheet" />
+</head>
+<body>
+    <p>点击文本框进行体验</p>
+
+    <h4>1、当前选中日期为2016-06-01</h4>
+    <input type="text" id="currentDate" />
+
+    <h4>2、可选的最小日期为今天</h4>
+    <input type="text" id="minDate" />
+
+    <h4>3、可选的最大日期为今天</h4>
+    <input type="text" id="maxDate" />
+
+    <h4>4、选择日期后回调</h4>
+    <input type="text" id="callback" />
+
+
+    <script src="http://luopq.com/demo/lib/zepto.min.js"></script>
+    <script src="../src/zepto.datepicker.js"></script>
+    <script>
+        $("#currentDate").datePicker({
+            currentDate: "2016-06-01"
+        })
+
+        $("#minDate").datePicker({
+            minDate: new Date()
+        })
+
+        $("#maxDate").datePicker({
+            minDate: null,
+            maxDate: new Date()
+        })
+
+        $("#callback").datePicker({
+            onDateSelected: function (date) {
+                alert(date);
+            }
+        })
+    </script>
+</body>
+</html>
