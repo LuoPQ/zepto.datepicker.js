@@ -24,13 +24,14 @@ $("#datePicker").datePicker();
 
 ### Demo
 1、<a href="http://luopq.com/demo/datepicker/examples/index.html" target="_blank">Demo</a>
+
 2、访问二维码<br/>
-!(http://luopq.com/demo/zeptodatepicker/examples/demoQR.jpg)
+![Demo二维码](http://luopq.com/demo/zeptodatepicker/examples/demoQR.jpg)
 
 ### Options
 |参数名|类型|默认值|描述|
 |-----|----|------|---|
 |minDate|Date|new Date()|可选日期范围的最小日期|
 |maxDate|Date|null|可选日期范围的最大日期|
-|currentDate|Date/String|null|当前选中日期|
+|currentDate|Date/String|new Date()|当前选中日期|
 |onDateSelected|function|null|选中日期后的回调函数，包含参数：当前选中日期|
