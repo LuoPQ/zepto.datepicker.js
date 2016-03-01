@@ -23,7 +23,7 @@ $("#datePicker").datePicker();
 ```
 
 ### Demo
-1、<a href="http://luopq.com/demo/datepicker/examples/index.html" target="_blank">Demo</a>
+1、<a href="http://luopq.com/demo/zeptodatepicker/examples/index.html" target="_blank">Demo</a>
 
 2、访问二维码<br/>
 ![Demo二维码](http://luopq.com/demo/zeptodatepicker/examples/demoQR.jpg)
